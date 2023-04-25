@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+      font-family: 'Inter', sans-serif;
+}
+.hero{
+    height: 55px;
+    background: #F55A5A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+h2{
+    margin-left: 1em;
+}
+section{
+    padding: 0 40px;
+}
+
+.card{
+    position: relative;
+    height: 30%;
+    display: flex;
+    width: 100%;
+    margin: 36px 0;
+}
+.card::after{
+    position: absolute;
+    content: "";
+    background: #F5F5F5;
+    width: 100%;
+    height: 1px;
+   transform: translateY(186px);
+    
+}
+.photo{
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+.location{
+    display: flex;
+    align-items: center;
+}
+a{
+    display: inline-block;
+    margin-left: 12px;
+    color:#918E9B;
+}
+h4{
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: 17%;
+    margin-left: 1em;
+}
+
+.date{
+    display: flex;
+    font-weight: 600;
+}
+.date>span::after{
+    content: " - "
+}
+.date span{
+    display: inline-block;
+}
