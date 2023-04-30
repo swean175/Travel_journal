@@ -1,5 +1,5 @@
-import React from "react"
-import data from "./data"
+import React from 'react'
+import './App.css'
 import Hero from "./components/Hero"
 import Main from "./components/Main"
 
